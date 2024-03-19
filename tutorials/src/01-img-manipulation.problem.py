@@ -8,7 +8,7 @@ import cv2
 print(cv2.__version__)
 
 # TODO Load an image with image reading modes using 'imread'
-image = cv2.imread(r'C:\Users\micro\Documents\GitHub\tutorials\tutorials\data\images\bumbu_rawon.jpg')
+image = cv2.imread(r'C:\Users\micro\Documents\GitHub\tutorials\tutorials\data\images\bumbu_rawon.jpg', cv2.IMREAD_GRAYSCALE)
 
 # cv2.IMREAD_UNCHANGED  - If set, return the loaded image as is (with alpha
 #                         channel, otherwise it gets cropped). Ignore EXIF
