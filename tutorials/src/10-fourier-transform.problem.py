@@ -12,6 +12,10 @@ window_width = 640
 window_height = 480
 
 # TODO Implement the function get_frequencies(image):
+
+def get_frequencies(image):
+    return
+
 # Convert image to floats and do dft saving as complex output
 
 # Apply shift of origin from upper left corner to center of image
@@ -23,6 +27,10 @@ window_height = 480
 # Return the resulting image (as well as the magnitude and phase for the inverse)
 
 # TODO Implement the function create_from_spectrum():
+
+def create_from_spectrum(image):
+    return
+    
 # Convert magnitude and phase into cartesian real and imaginary components
 
 # Combine cartesian components into one complex image
